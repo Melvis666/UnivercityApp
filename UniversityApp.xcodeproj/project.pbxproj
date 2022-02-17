@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		9B67507627BD492F00596F2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67507527BD492F00596F2E /* AppDelegate.swift */; };
 		9B67507827BD492F00596F2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67507727BD492F00596F2E /* SceneDelegate.swift */; };
-		9B67507A27BD492F00596F2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67507927BD492F00596F2E /* ViewController.swift */; };
+		9B67507A27BD492F00596F2E /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67507927BD492F00596F2E /* ListViewController.swift */; };
 		9B67507D27BD492F00596F2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B67507B27BD492F00596F2E /* Main.storyboard */; };
 		9B67507F27BD493000596F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B67507E27BD493000596F2E /* Assets.xcassets */; };
 		9B67508227BD493000596F2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B67508027BD493000596F2E /* LaunchScreen.storyboard */; };
+		9B67508E27BD4E4B00596F2E /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67508D27BD4E4B00596F2E /* ListViewModel.swift */; };
+		9B67509027BD4E9800596F2E /* UniversityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67508F27BD4E9800596F2E /* UniversityModel.swift */; };
+		9B67509427BD57E700596F2E /* UniversityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B67509327BD57E700596F2E /* UniversityTableViewCell.xib */; };
+		9B67509627BD58A600596F2E /* UniversityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67509527BD58A600596F2E /* UniversityTableViewCell.swift */; };
+		9B67509827BD6B3300596F2E /* UniversityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67509727BD6B3300596F2E /* UniversityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9B67507227BD492F00596F2E /* UnivercityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnivercityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B67507527BD492F00596F2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B67507727BD492F00596F2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B67507927BD492F00596F2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B67507927BD492F00596F2E /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		9B67507C27BD492F00596F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B67507E27BD493000596F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B67508127BD493000596F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B67508327BD493000596F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B67508D27BD4E4B00596F2E /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		9B67508F27BD4E9800596F2E /* UniversityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityModel.swift; sourceTree = "<group>"; };
+		9B67509327BD57E700596F2E /* UniversityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityTableViewCell.xib; sourceTree = "<group>"; };
+		9B67509527BD58A600596F2E /* UniversityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityTableViewCell.swift; sourceTree = "<group>"; };
+		9B67509727BD6B3300596F2E /* UniversityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,50 @@
 			children = (
 				9B67507527BD492F00596F2E /* AppDelegate.swift */,
 				9B67507727BD492F00596F2E /* SceneDelegate.swift */,
-				9B67507927BD492F00596F2E /* ViewController.swift */,
-				9B67507B27BD492F00596F2E /* Main.storyboard */,
-				9B67507E27BD493000596F2E /* Assets.xcassets */,
 				9B67508027BD493000596F2E /* LaunchScreen.storyboard */,
+				9B67507E27BD493000596F2E /* Assets.xcassets */,
+				9B67508927BD4BF000596F2E /* Models */,
+				9B67508B27BD4C1200596F2E /* Views */,
+				9B67508A27BD4C0700596F2E /* ViewModels */,
 				9B67508327BD493000596F2E /* Info.plist */,
 			);
 			path = UnivercityApp;
+			sourceTree = "<group>";
+		};
+		9B67508927BD4BF000596F2E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B67508F27BD4E9800596F2E /* UniversityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9B67508A27BD4C0700596F2E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9B67508D27BD4E4B00596F2E /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9B67508B27BD4C1200596F2E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9B67507B27BD492F00596F2E /* Main.storyboard */,
+				9B67507927BD492F00596F2E /* ListViewController.swift */,
+				9B67509727BD6B3300596F2E /* UniversityViewController.swift */,
+				9B67509127BD57AF00596F2E /* Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9B67509127BD57AF00596F2E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B67509327BD57E700596F2E /* UniversityTableViewCell.xib */,
+				9B67509527BD58A600596F2E /* UniversityTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +149,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9B67506D27BD492E00596F2E /* Build configuration list for PBXProject "UnivercityApp" */;
+			buildConfigurationList = 9B67506D27BD492E00596F2E /* Build configuration list for PBXProject "UniversityApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B67508227BD493000596F2E /* LaunchScreen.storyboard in Resources */,
+				9B67509427BD57E700596F2E /* UniversityTableViewCell.xib in Resources */,
 				9B67507F27BD493000596F2E /* Assets.xcassets in Resources */,
 				9B67507D27BD492F00596F2E /* Main.storyboard in Resources */,
 			);
@@ -138,8 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B67507A27BD492F00596F2E /* ViewController.swift in Sources */,
+				9B67507A27BD492F00596F2E /* ListViewController.swift in Sources */,
+				9B67509627BD58A600596F2E /* UniversityTableViewCell.swift in Sources */,
 				9B67507627BD492F00596F2E /* AppDelegate.swift in Sources */,
+				9B67509027BD4E9800596F2E /* UniversityModel.swift in Sources */,
+				9B67508E27BD4E4B00596F2E /* ListViewModel.swift in Sources */,
+				9B67509827BD6B3300596F2E /* UniversityViewController.swift in Sources */,
 				9B67507827BD492F00596F2E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,7 +393,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B67506D27BD492E00596F2E /* Build configuration list for PBXProject "UnivercityApp" */ = {
+		9B67506D27BD492E00596F2E /* Build configuration list for PBXProject "UniversityApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9B67508427BD493000596F2E /* Debug */,
